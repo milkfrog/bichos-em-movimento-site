@@ -1,0 +1,23 @@
+{
+  "name": "Bichos em Movimento",
+  "short_name": "Bichos em Movimento",
+  "description": "Fisioterapia, reabilitação e acupuntura veterinária em Curitiba e Foz do Iguaçu.",
+  "lang": "pt-BR",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#fcf8ef",
+  "theme_color": "#fcf8ef",
+  "icons": [
+    {
+      "src": "favicon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
