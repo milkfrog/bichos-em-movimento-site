@@ -1,0 +1,20 @@
+.section {
+  position: relative;
+  scroll-margin-top: var(--nav-height);
+}
+
+.cream {
+  background-color: var(--color-cream);
+}
+
+.white {
+  background-color: var(--color-white);
+}
+
+.default {
+  padding-block: var(--space-section);
+}
+
+.large {
+  padding-block: var(--space-section-lg);
+}

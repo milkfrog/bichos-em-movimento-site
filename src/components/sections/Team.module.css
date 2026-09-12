@@ -1,0 +1,59 @@
+.heading {
+  font-size: var(--text-heading);
+  font-weight: var(--weight-bold);
+  margin-bottom: var(--space-xl);
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
+  gap: var(--gap-gallery);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  height: 100%;
+  padding: var(--space-lg);
+  background-color: var(--color-white);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+.portrait {
+  margin-bottom: var(--space-md);
+}
+
+.name {
+  font-size: var(--text-subheading);
+  font-weight: var(--weight-semibold);
+  line-height: 1.25;
+}
+
+.crmv {
+  margin-top: var(--space-2xs);
+  font-size: var(--text-small);
+  font-weight: var(--weight-semibold);
+  color: var(--color-teal-subtitle);
+  letter-spacing: normal;
+  line-height: 1.4;
+}
+
+.role {
+  margin-top: var(--space-sm);
+  font-size: var(--text-small);
+  font-weight: var(--weight-semibold);
+  color: var(--color-body);
+  letter-spacing: normal;
+  line-height: 1.5;
+}
+
+.bio {
+  margin-top: var(--space-sm);
+  font-size: var(--text-small);
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--color-body);
+}

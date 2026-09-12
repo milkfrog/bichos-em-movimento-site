@@ -1,0 +1,49 @@
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 606fr) minmax(0, 550fr);
+  gap: var(--gap-columns);
+  align-items: center;
+}
+
+.media {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.copy {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.mediaRight {
+  grid-template-columns: minmax(0, 550fr) minmax(0, 606fr);
+}
+
+.mediaRight .media {
+  grid-column: 2;
+}
+
+.mediaRight .copy {
+  grid-column: 1;
+}
+
+@media (max-width: 56rem) {
+
+  .grid,
+  .mediaRight {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-lg);
+  }
+
+  .media,
+  .mediaRight .media {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .copy,
+  .mediaRight .copy {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}

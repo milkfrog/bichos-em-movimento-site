@@ -1,0 +1,63 @@
+.section {
+  padding-block: 0;
+}
+
+.masthead {
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 3vw, 2.25rem);
+  min-height: clamp(9rem, 15vw, 13.5rem);
+  padding-block: var(--space-md);
+}
+
+.logo {
+  flex: none;
+  width: clamp(5rem, 11vw, 13.375rem);
+  height: auto;
+  object-fit: contain;
+}
+
+.wordmark {
+  min-width: 0;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--text-wordmark);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-wordmark);
+  letter-spacing: normal;
+  color: var(--color-teal-wordmark);
+  text-wrap: nowrap;
+}
+
+.subtitle {
+  margin-left: clamp(0px, 5.5vw, 83px);
+  font-family: var(--font-display);
+  font-size: var(--text-subtitle);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-subtitle);
+  letter-spacing: var(--tracking-subtitle);
+  color: var(--color-teal-subtitle);
+}
+
+.photo {
+  width: 100%;
+}
+
+@media (max-width: 40rem) {
+  .masthead {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+    padding-block: var(--space-lg);
+  }
+
+  .title {
+    text-wrap: balance;
+  }
+
+  .subtitle {
+    margin-left: 0;
+  }
+}

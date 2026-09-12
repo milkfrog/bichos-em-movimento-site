@@ -1,0 +1,10 @@
+.bar {
+  width: 100%;
+  max-width: 1366px;
+  margin-inline: auto;
+  height: clamp(18px, 2.2vw, 31px);
+  border-radius: 2px;
+  background: linear-gradient(to right,
+      var(--color-teal-heading) 0 32.2%,
+      var(--color-brown) 32.2% 100%);
+}

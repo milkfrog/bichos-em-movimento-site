@@ -1,0 +1,15 @@
+.body {
+  max-width: 68ch;
+  margin-inline: auto;
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  letter-spacing: var(--tracking-body);
+  color: var(--color-body);
+  text-align: center;
+}
+
+@media (max-width: 56rem) {
+  .body {
+    text-align: left;
+  }
+}
