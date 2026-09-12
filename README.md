@@ -1,1 +1,1 @@
-# bichos-em-movimento-site
+Simple static webpage for 'Bichos em Movimento'
